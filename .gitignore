@@ -1,0 +1,13 @@
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# windows thumbnail cache
+Thumbs.db
+
+wmail_88560a4ab66b98bf.html
+yandex_73ba1543bbae70b4.html
+index_.php
+/assets/temp/captcha/*

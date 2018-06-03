@@ -1,0 +1,160 @@
+
+.a_decoration_off_ms:hover{
+    text-decoration: none;
+}
+/* изображение товаров в index */
+.prod_img_i{
+    border: 0px solid red;
+    transition: transform .8s;
+}
+/* изображение товаров в index :hover*/
+.prod_img_i:hover{
+    transform: rotate(-30deg);
+}
+
+/* изображение товаров в корзине (анимация)*/
+.img_basket_ms{
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 2660ms;
+    -webkit-animation-iteration-count: 1; /* infinite бесконечно*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2660ms;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2660ms;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 2660ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+.img_basket_ms:hover{
+    transition: transform .8s;
+    transform: rotate(-30deg);
+}
+
+
+
+/* один отдельный блок на странице index */
+#ms_one_index_block{
+    border: 1px solid silver;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin: 1%;
+    padding-top: 3%;
+}
+.ms_price{
+    font-size: 30px;
+    color: blue;
+}
+.ms_old_price{
+    text-decoration: line-through;
+    font-size: 30px;
+    color: red;
+}
+
+#ms_production_main_block{
+    padding: 2% 1% 2% 1%;
+}
+
+#ms_one_product_block{
+    
+    min-height: 80%;
+    border-left: 0px solid silver;
+    border-right: 0px solid silver;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+}
+#ms_product_one_block_border{
+    
+    background-color: #8080FF;
+    border: 1px solid silver;
+    border-radius: 4px;
+    height: 5px;
+}
+/*навигация страниц (внешний блок)*/
+.ms_pagination{
+    text-align: right;
+}
+
+/*блок формы регистрации*/
+.ms_registration_form_div{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+/*блок формы авторизации*/
+.ms_login_form_div{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+/*блок формы восстановления пароля*/
+.ms_pass_restore_form_div{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+/*блок формы восстановления пароля*/
+.ms_add_content_div{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/*блок формы настроек*/
+.ms_settings_content_div{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+/*выравнивание блока по центру*/
+.ms_push_div_to_center{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+/*блок с товарами bestInCategory для виджета ProductsBanner*/
+.bestInCategory_ms{
+    background-color: white;
+    border: 1px solid #E6E6E6;
+    border-top-left-radius: 20px;
+    margin-top: 3%;
+    font-size: 13px;
+}
+/**
+ * .ms_thesis_img :hover{
+ *     width:50%;
+ *     height: 50%;
+ *     
+ * }
+ */
